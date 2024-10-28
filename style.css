@@ -1,0 +1,33 @@
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.task-item {
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease;
+}
+
+.task-item:hover {
+    background-color: #f5f5f5;
+}
+
+.edit-btn {
+    background-color: #ecc94b;
+    border-radius: 0.5rem;
+}
+
+.edit-btn:hover {
+    background-color: #d69e2e;
+}
+
+
+.delete-btn {
+    background-color: #f56565;
+    border-radius: 0.5rem;
+}
+
+.delete-btn:hover {
+    background-color: #c53030;
+}
